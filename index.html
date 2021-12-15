@@ -3,58 +3,73 @@
     <head>
         <meta charset="UTF-8">
         <title>Wildfarer Landing Page</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&family=Roboto&display=swap" rel="stylesheet"> 
     </head>
-    <!-- this doc uses BEM (block element modifier) syntax. block (heading, right-links), element (heading_right-links_, modifier (heading_right-links--red)-->
+    <!-- this doc uses BEM (block element modifier) syntax. block (heading, right-links), element (heading_right-links), modifier (heading_right-links--red)-->
     <body>
-        <div class="header">
-            <img src="" alt="">
+        <header>
+            <div class="header_logo">Wildfarer</div>
             <ul class="header_right-links">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="Shop"></a>Shop</li>
+                <li><a href="About"></a>About</li>
+                <li><a href="Contact"></a>Contact</li>
             </ul>
-        </div>
+        </header>
         <div class="title">
-            <div class="title_text">
-                <div class="title_top">Wildfarer Gear</div>
-                <div class="title_bottom">Welcome to Wildfarer Gear, become a Wildfarer today</div>
+            <div class="title_left">
+                <h1 class="title_top">Wildfarer Gear</h1>
+                <div class="title_bottom">Welcome to Wildfarer Gear, a family owned company dedicated to making you the coolest kit for all your adventures. Whether you climb mountains, farm acres, or slay spreadsheets, weve got the gear for you. Become a Wildfarer today</div>
                 <button class="title_button">Join Today</button>
             </div>
             <div class="title_img">
-                <img src="" alt="">
+                <img src="./images/onepercent.png" alt="Company is part of One Percent for the Planet, and organization guarenteeing 1% of all proceeds donated to causes, as well as volunteer time">
             </div>
         </div>
         <div class="content">
-            <div class="content_text">The Wildfarer Team</div>
+            <h2 class="content_text">The Wildfarer Team</h2>
             <div class="content_cards">
                 <div class="content_owner">
-                    <img src="" alt="">
-                    <div class="content_text"></div>
+                    <img src="./images/joseph.png" alt="Picture of Joseph">
+                    <h3 class="content_text">Joseph</h3>
+                    <p class="content_text">Director of Opertaions - Mustachiod mullatto with a penchant for procrastination</p>
                 </div>
                 <div class="content_owner">
-                    <img src="" alt="">
-                    <div class="content_text"></div>
+                    <img src="./images/liz.png" alt="Picture of Elizabeth">
+                    <h3 class="content_text">Elizabeth</h3>
+                    <p class="content_text">Creative Director - Head of art, coffee consumption, and mad bursts of inspiration</p>
                 </div>
                 <div class="content_owner">
-                    <img src="" alt="">
-                    <div class="content_text"></div>
+                    <img src="./images/max.png" alt="Picture of Mad Max the cat">
+                    <h3 class="content_text">Mad Max</h3>
+                    <p class="content_text">Chief snuggler, keyboard clacker, and problem creator.</p>
                 </div>
                 <div class="content_owner">
-                    <img src="" alt="">
-                    <div class="content_text"></div>
+                    <img src="./images/stella.png" alt="Picture of Stella the dog">
+                    <h3 class="content_text">Stella</h3>
+                    <p class="content_text">Head of corporate motivation and naughtiness</p>
                 </div>
             </div>
         </div>
-        <div class="one-percent">
-            <div class="one-percent_info">Lorem</div>
-            <div class="one-percent_quote">Ipsum</div>
+        <div class="customer">
+            <div class="customer_info">In my long life of drinking beverages and kicking ass, I have always been on the search for travel drinkware that kicks ass as much as I do. The search is over. Wildfarer gear keep my coffee hot, my beer cold, and my body ready. I summitted Mt Olympus with Wildfare, and fought the Kraken with their mugs. I'm a customer for life. </div>
+            <div class="customer_quote">-Customer</div>
+        </div>
+        <div class="call">
+            <div class="container">
+                <div class="call_left">
+                    <div class="call_left_top">Join our cause today</div>
+                    <div class="call_left_bottom">Its worth it!</div>
+                </div>
+                <button class="call_right">Sign Up</button>
+        </div>
         </div>
         <div class="footer">
-            <div class="footer_left">
-                <div class="footer_left_top">Join our cause today</div>
-                <div class="footer_left_bottom">Its worth it!</div>
-            </div>
-            <button class="footer_right">Sign Up</button>
+            <p>Copyright The Odin Project</p>
         </div>
     </body>
 </html>

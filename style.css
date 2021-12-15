@@ -1,0 +1,181 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+header,
+.footer {
+    display: flex;
+    background-color: #2a394d;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: white;
+}
+
+.header_logo {
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: xx-large;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 12px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    background-color: #1F2937;
+    color: white;
+    padding: 60px 120px;
+    gap: 10px;
+}
+
+.title_img {
+    min-width: 0;
+    flex: 1;
+}
+
+.title img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.title_left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px 40px;
+
+}
+
+.title_top {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title button {
+    border: none;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border-width: thin;
+    border-color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.content_text {
+    margin: 0px;
+}
+
+.content_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.content_owner {
+    min-width: 0px;
+    flex: 1;
+}
+
+.content_owner img {
+    max-width: 100%;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 64px 224px;
+    background-color: #E5E7EB;
+}
+
+.customer_info {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.customer_quote {
+    font-weight: bolder;
+    color: black;
+    align-self: flex-end;
+    font-size: 50px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #3882F6;
+    gap: 40px;
+    padding: 40px 100px;
+    width: 800px;
+}
+
+.call_left {
+    text-align: left;
+    color: white;
+}
+
+.call_left_top {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
